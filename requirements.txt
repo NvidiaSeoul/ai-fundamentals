@@ -1,0 +1,19 @@
+# 파이썬 & 데이터 분석 기초 / Python & Data Analysis Foundations
+# 실제 소스에서 import 되는 패키지만 포함 (표준 라이브러리 os/re/shutil/platform/time/random/pdb/tkinter 제외)
+
+# 데이터 처리 / Data handling
+numpy
+pandas
+
+# 시각화 / Visualization
+matplotlib
+seaborn
+
+# 엑셀 입출력 / Excel I/O (pandas read_excel/to_excel 백엔드)
+openpyxl          # .xlsx 읽기/쓰기
+xlrd              # .xls (구형 엑셀, population_in_seoul.xls) 읽기
+
+# 웹 크롤링 / Web crawling
+requests
+beautifulsoup4
+lxml              # BeautifulSoup 파서
